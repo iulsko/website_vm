@@ -1,0 +1,172 @@
+body {
+  position: relative;
+  min-width: 1408px;
+  font-family: "Georgia", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #152532;
+  background-color: #f3f3f3;
+}
+
+h1,h2,h3,h4 {
+  text-align: center;
+}
+h4 {
+  padding:5%;
+}
+
+.main-background {
+  background-image: url('background.jpg');
+  background-position: 100% 20%;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+  width: 30%;
+}
+
+a.offer:link, a.offer:visited {
+  background-color: transparent;
+  border-style: solid;
+  border-color: #999091;
+  font-size: 25px;
+  color: #999091;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.offer:hover, a.offer:active {
+  background-color: #999091;
+  border-style: solid;
+  border-color: #999091;
+  color: #f3f3f3;
+}
+
+a.insta:link, a.insta:visited {
+  background-color: transparent;
+  border-style: solid;
+  border-color: #FFB6C1;
+  color: #152532;
+  margin-top: 18px;
+  padding: 2px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.insta:hover, a.insta:active {
+  background-color: #FFB6C1;
+  border-style: solid;
+  border-color: #FFB6C1;
+  color: #f3f3f3;
+}
+
+
+.page-title {
+  text-align: center;
+  margin-top: 250px;
+  font-size: 60px;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: trasparent;
+  color: #152532;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #f88564;
+  color: #f3f3f3;
+  font-size: 50px;
+}
+
+a.link_back:link, a.link_back:visited {
+  color: #152532;
+  font-size: 18px;
+  margin-top: 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.link_back:hover, a.link_back:active {
+  color: white;
+}
+
+
+.leftside, .rightside {
+  height: 100vh;
+  width: 100%;
+}
+
+.rightside{
+  background-image: url('muss.jpg');
+  background-size: 100%;
+  background-position: center;
+}
+
+.leftside{
+  background-image: url('biscuit.jpg');
+  background-size: 100%;
+  background-position: center;
+}
+
+a.to-cake:link, a.to-cake:visited {
+  font-size: 40px;
+  color: #f3f3f3;
+  margin-top: 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.to-cake:hover, a.to-cake:active {
+  color: #152532;
+}
+
+.intro-text {
+  text-align: justify;
+  padding-left: 150px;
+  padding-right: 150px;
+  line-height: normal;
+}
+
+.in-cell {
+  text-align: justify;
+  padding: 7%;
+  font-size: 14px;
+  line-height: normal;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.rows {margin: 0 75px;}
+
+/* Clear floats after the columns */
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  padding: 16px;
+  text-align: center;
+  background-color: gray;
+  height: 400px;
+  line-height: normal;
+}
